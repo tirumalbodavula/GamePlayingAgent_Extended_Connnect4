@@ -1,0 +1,49 @@
+****************************************************
+1   [(0, False), (1, False), (2, False), (3, False), (4, False), (5, False)]
+2   [(0, False), (1, False), (2, False), (3, False), (4, False), (5, False)]
+Entering here MAX level--- depth:  2
+==MV===  0
+VA in maxval:  [(0, False), (1, False), (2, False), (3, False), (4, False), (5, False)]
+/////////////////////////////MAX MOVE is  (0, False)  /////////////////////////////////////
+==CV===  0
+&&&&&&&&&  0     False
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [2 0 1 0 0 0]]
+Entering here CHANCE level--- depth:  1
+==CV===  0
+VA in chanceval:  [(0, False), (1, False), (2, False), (3, False), (4, False), (5, False)]
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [2 0 1 0 0 0]]  Inside CM  1 --> 0
+/////////////////////////////////CHANCE MOVE is  (0, False)
+Entering here MAX level--- depth:  0
+(0, False)   value from max state: ==  0
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [1 0 0 0 0 0]
+ [2 0 1 0 0 0]]  Inside CM  1 --> 0
+/////////////////////////////////CHANCE MOVE is  (1, False)
+Entering here MAX level--- depth:  0
+(1, False)   value from max state: ==  0
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [1 0 0 0 0 0]
+ [2 1 1 0 0 0]]  Inside CM  1 --> 0
+/////////////////////////////////CHANCE MOVE is  (2, False)
+Entering here MAX level--- depth:  0
+(2, False)   value from max state: ==  0
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [1 0 1 0 0 0]
+ [2 1 1 0 0 0]]  Inside CM  1 --> 0
+/////////////////////////////////CHANCE MOVE is  (3, False)
+Entering here MAX level--- depth:  0
+(3, False)   value from max state: ==  0
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [1 0 1 0 0 0]
+ [2 1 1 1 0 0]]  Inside CM  1 --> 0
+/////////////////////////////////CHANCE MOVE is  (4, False)
